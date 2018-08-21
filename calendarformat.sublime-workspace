@@ -1,0 +1,385 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"page",
+				"page-break-after\tproperty"
+			],
+			[
+				"event_row",
+				"event_row_tpl"
+			],
+			[
+				"event",
+				"event_row_template"
+			],
+			[
+				"sorte",
+				"sorted_events"
+			],
+			[
+				"save",
+				"saveSelectedCities"
+			],
+			[
+				"initi",
+				"initialWeatherForecast"
+			],
+			[
+				"selected",
+				"selectedCities"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "calendarformat.css",
+			"settings":
+			{
+				"buffer_size": 1379,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "calendarformat.html",
+			"settings":
+			{
+				"buffer_size": 2689,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "calendarformat.js",
+			"settings":
+			{
+				"buffer_size": 8453,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "normalize.css",
+			"settings":
+			{
+				"buffer_size": 6051,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "/*! normalize.css v8.0.0 | MIT License | github.co"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/T/Staff Directories/Communications (JOSH)/Scripts/calendarformat"
+	],
+	"file_history":
+	[
+		"/T/Staff Directories/Communications (JOSH)/Scripts/calendarformat/calendarformat.html",
+		"/C/Users/Josh/Desktop/buttons-backup.css",
+		"/C/Users/Josh/Desktop/chevron-sign-to-right.svg",
+		"//newfileserver/fileserver/Tdriveconvert.bat",
+		"/C/Users/Josh/Desktop/Sing_to_the_Lord,_Sing_His_Praise.xml",
+		"/C/Users/Josh/Desktop/marker.svg",
+		"/C/Users/Josh/Desktop/your-first-pwapp-master/work/scripts/app.js",
+		"/C/Users/Josh/Desktop/your-first-pwapp-master/work/styles/inline.css",
+		"/C/Users/Josh/Desktop/your-first-pwapp-master/work/index.html",
+		"/C/Users/Josh/Desktop/pin.svg",
+		"/C/Users/Josh/Documents/Web Design/fullScreenAccordian/css/main.css",
+		"/C/Users/Josh/Documents/Web Design/fullScreenAccordian/index.html",
+		"/C/Users/Josh/Documents/Web Design/fullScreenAccordian/css/normalize.css",
+		"/C/Users/Josh/Documents/Web Design/fullPageAccordian.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"time_end",
+			"time_start",
+			"time_end",
+			"time_start",
+			"print",
+			"span",
+			"template",
+			"Trinity Lutheran Church",
+			"l.facility_id.name.includes",
+			"event_row_template",
+			"day_template",
+			"window",
+			"sorted",
+			"events."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "calendarformat.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								748,
+								748
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 702.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "calendarformat.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1566,
+								1566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "calendarformat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3404,
+								3404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "normalize.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1055,
+								1055
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*! normalize.css v8.0.0 | MIT License | github.co",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1767.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "calendarformat.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

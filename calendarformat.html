@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trinity Lutheran Church Calendar Reformat</title>
+    
+    <!-- stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="calendarformat.css">
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    
+    <div class="content_wrap">
+        <section id="dates">
+            <form id="date_form">
+                <label for="date_start">Start date:</label>
+                <input type="text" name="date_start" id="date_start" placeholder="Start date (yyyy-mm-dd)" />
+
+                <label for="date_end">End date:</label>
+                <input type="text" name="date_end" id="date_end" placeholder="End date (yyyy-mm-dd)" />
+                <button id="form_submit">Look it up.</button>
+            </form>
+            <span class="error"></span>
+        </section>
+
+        <hr />
+        
+        <section id="calendar">
+           
+        </section>
+    </div>
+
+    <!-- templates -->
+    <script type="text" id="event_row_template">
+        <div class="event_row">
+            <div class="time">
+                <div class="event_time">
+                    <span class="time_start"><%= time_start %></span> to <span class="time_end"><%= time_end %></span>
+                </div>
+                <div class="access_time">
+                    <% if (time_setup) { %>
+                    (<span class="time_setup"><%= time_setup %></span> to <span class="time_breakdown"><%= time_breakdown %></span>)
+                    <% } %>
+                </div>
+            </div>
+            <div class="title">
+                <%= title %>
+            </div>
+            <div class="locations">
+                <%= locations %>
+            </div>
+        </div>
+    </script>
+
+    <script type="text" id="day_template">
+        <div class="date_section">
+            <h1><%= date %><span>Trinity Lutheran Church Facility Calendar</span></h1>
+            <%= rows %>
+        </div>
+    </script>
+
+
+    <!-- scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://underscorejs.org/underscore-min.js"></script>
+    <script type="text/javascript" src="http://momentjs.com/downloads/moment.min.js"></script>
+    <script type="text/javascript" src="calendarformat.js"></script>
+
+
+</body>
+
+
+
+</html>

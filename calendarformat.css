@@ -1,0 +1,91 @@
+
+
+body {
+    font-family: "Josefin Sans", sans;
+    font-size: 12pt;
+
+}
+
+.content_wrap {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+hr {
+    border: none;
+    background: #ccc;
+    height: 1px;
+}
+
+body section {
+    margin:15px 0px;
+}
+
+#date_form input {
+    font-weight: 300;
+    border: none;
+    border-bottom: 3px solid #888;
+}
+
+#date_form input::placeholder {
+    font-size: 12px;
+}
+
+#calendar .date_section {
+    page-break-after: always;
+}
+
+#calendar .date_section h1 {
+    position: relative;
+    margin: 1em 0 0.2em 0;
+}
+
+#calendar .date_section h1 span {
+    position: absolute;
+    font-size: 50%;
+    right: 0;
+    bottom: 5px;
+}
+
+#calendar .event_row:nth-child(even) {
+    background: #eee;
+    -webkit-print-color-adjust: exact;
+}
+
+#calendar .event_row:first-of-type {
+    border-top: 1px solid #ccc;
+}
+
+#calendar .event_row {
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#calendar .event_row div.time,
+#calendar .event_row div.title,
+#calendar .event_row div.locations {
+    flex: 1;
+}
+
+#calendar .event_row div.locations span.location {
+    display: block;
+    font-weight: lighter;
+}
+
+#calendar .event_row div.time .access_time {
+    font-weight: lighter;
+    font-size: 11pt;
+    font-style: italic;
+}
+
+
+/* * * * * * * * */
+/* PRINT STYLES  */
+/* * * * * * * * */
+@media print {
+    #dates {
+        display: none;
+    }
+}
