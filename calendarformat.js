@@ -32,7 +32,7 @@
         //main methods
 
             // method variables
-            var url_base = "http://trinitylutheranchurch.tandem.co/index.php?type=export&action=json&fields=name,description,locations,departments,group,time_start,time_end,time_setup,time_breakdown&limit=100";
+            var url_base = "https://trinitylutheranchurch.tandem.co/index.php?type=export&action=json&fields=name,description,locations,departments,group,time_start,time_end,time_setup,time_breakdown&limit=100";
                 // json url for tandem calendar. Could make this more variable 
                 // by allowing the _getEvents function to build the fields & limit based on user input
             
