@@ -93,7 +93,7 @@
 
                     while(firstDate.add(1, 'days').diff(lastDate) < 0) {
                         console.log(firstDate.format('YYYY-MM-DD'));
-                        $calendar.sorted_events[firstDate.format('YYYY-MM-DD')];
+                        $calendar.sorted_events[firstDate.format('YYYY-MM-DD')] = [];
                     }
                     console.log($calendar.sorted_events);
                     $.each($calendar.events, function(i, event) {
