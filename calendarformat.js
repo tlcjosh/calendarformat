@@ -61,7 +61,7 @@
                         window.events = data.stored.tfs_Event;
 
                         $calendar.events = data.stored.tfs_Event;
-                        $calendar._renderEvents();
+                        $calendar._renderEvents(sdate,edate);
                     })
 
                     .fail(function(data) {
@@ -73,7 +73,7 @@
             };
 
 
-            $calendar._renderEvents = function () {
+            $calendar._renderEvents = function (sdate, edate) {
             // DESCRIPTION
             // checks that $calendar.events has events, and if so, iterates over 
             // the list to group them by day to more easily render on page.
@@ -87,8 +87,14 @@
 //TODO: Pre-populate sorted events object to contain the whole date range from _getEvents function.
 //      Then no need to have the if below, can simply push events.
 
-                    $calendar.sorted_events = {};
+                    $calendar.sorted_events = {sdate:[]};
+                    var firstDate = moment(sdate).startOf('day'),
+                        lastDate = moment(edate).startOf('day');
 
+                    while(firstDate.add(1, 'days').diff(lastDate) < 0) {
+                        $calendar.sorted_events[firstDate.format('YYYY-MM-DD')]
+                    }
+                    console.log($calendar.sorted_events);
                     $.each($calendar.events, function(i, event) {
                         //DEBUG
                         //console.log(event.name + ' - ' + event.date_start);
