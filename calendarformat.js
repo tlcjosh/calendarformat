@@ -98,7 +98,6 @@
                         lastDate = moment(edate).startOf('day');
 
                     while(firstDate.add(1, 'days').diff(lastDate) < 0) {
-                        console.log(firstDate.format('YYYY-MM-DD'));
                         $calendar.sorted_events[firstDate.format('YYYY-MM-DD')] = [];
                     }
                     console.log($calendar.sorted_events);
@@ -159,8 +158,8 @@
                             
                             if (!offsite) {
                                 row = event_row_tpl({
-                                    time_start: moment(event.time_start, 'h:mm a').format('h:mm A'),
-                                    time_end:   moment(event.time_end, 'h:mm a').format('h:mm A'),
+                                    time_start: event.time_start ? moment(event.time_start, 'h:mm a').format('h:mm A') : '',
+                                    time_end:   event.time_end ? moment(event.time_end, 'h:mm a').format('h:mm A') : '',
                                     time_setup: event.time_setup ? moment(event.time_setup, 'h:mm a').format('h:mm A') : '',
                                     time_breakdown:   event.time_setup ? moment(event.time_breakdown, 'h:mm a').format('h:mm A') : '',
                                     title:      event.name,

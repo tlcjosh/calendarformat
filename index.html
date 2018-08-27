@@ -36,7 +36,11 @@
         <div class="event_row">
             <div class="time">
                 <div class="event_time">
-                    <span class="time_start"><%= time_start %></span> to <span class="time_end"><%= time_end %></span>
+                    <% if (time_start) { %>
+                        <span class="time_start"><%= time_start %></span> to <span class="time_end"><%= time_end %></span>
+                    <% } else { %>
+                        <span class="time_start">All Day</span>
+                    <% } %>
                 </div>
                 <div class="access_time">
                     <% if (time_setup) { %>
