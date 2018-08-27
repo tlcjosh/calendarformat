@@ -87,7 +87,7 @@
 //TODO: Pre-populate sorted events object to contain the whole date range from _getEvents function.
 //      Then no need to have the if below, can simply push events.
 
-                    $calendar.sorted_events = {sdate.toString():[]};
+                    $calendar.sorted_events = {[sdate]:[]};
                     var firstDate = moment(sdate).startOf('day'),
                         lastDate = moment(edate).startOf('day');
 
