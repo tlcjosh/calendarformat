@@ -3,6 +3,7 @@
     var $window = $(window),
         $body = $('body'),
         $dateform = $('#date_form'),
+        $error = $('.error'),
         $startdate = $('#date_start'),
         $enddate = $('#date_end'),        
         $button = $('#form_submit'),
@@ -17,6 +18,8 @@
             // DESCRIPTION
             // takes values from two input fields date_start and date_end, 
             // make a call to $calendar._getEvents, then send returned data to render function
+                //first clear error span
+                $error.html('');
 
                 var sdate = $startdate.val(),
                     edate = $enddate.val();
@@ -81,6 +84,9 @@
 
                 //DEBUG
                 //console.log('rendering');
+
+                //first clear any previous calendar html
+                $calendar.html('');
 
                 if ($calendar.events && $calendar.events.length > 0) {
 
@@ -189,6 +195,7 @@
             //
             // DESCRIPTION
             // log msg to console and insert into HTML
+                $error.html(msg);
                 console.log(msg);
             };
 

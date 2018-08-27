@@ -31,6 +31,14 @@ body section {
     font-size: 12px;
 }
 
+
+span.error {
+    color: red;
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+
 #calendar .date_section {
     page-break-after: always;
 }
