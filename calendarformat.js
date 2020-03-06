@@ -27,7 +27,7 @@
                 if (sdate && edate) {
                     $calendar._getEvents(sdate,edate);
                 } else {
-                    $calendar._error('Please enter both dates.');
+                    $calendar._error('Please choose two valid dates.');
                 }
             };
 
@@ -35,7 +35,7 @@
         //main methods
 
             // method variables
-            var url_base = "https://trinitylutheranchurch.tandem.co/index.php?type=export&action=json&fields=name,description,locations,departments,event_type,group,time_start,time_end,time_setup,time_breakdown&limit=100";
+            var url_base = "https://trinitylutheranchurch.tandem.co/index.php?type=export&action=json&fields=name,description,locations,departments,event_type,group,time_start,time_end,time_setup,time_breakdown,status&limit=100";
                 // json url for tandem calendar. Could make this more variable 
                 // by allowing the _getEvents function to build the fields & limit based on user input
             
@@ -163,7 +163,8 @@
                                     time_setup: event.time_setup ? moment(event.time_setup, 'h:mm a').format('h:mm A') : '',
                                     time_breakdown:   event.time_setup ? moment(event.time_breakdown, 'h:mm a').format('h:mm A') : '',
                                     title:      event.name,
-                                    locations:  loc
+                                    locations:  loc,
+                                    cancelled:  event.status.data=="Cancelled"
                                 }) 
                                 //console.log(row);
                                 events_html += row;

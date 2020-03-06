@@ -33,7 +33,7 @@
 
     <!-- templates -->
     <script type="text" id="event_row_template">
-        <div class="event_row">
+        <div class="event_row" <% if (cancelled) { %> style="text-decoration:line-through" <% } %>>
             <div class="time">
                 <div class="event_time">
                     <% if (time_start) { %>
