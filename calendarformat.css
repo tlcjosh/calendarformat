@@ -46,6 +46,8 @@ span.error {
 #calendar .date_section h1 {
     position: relative;
     margin: 1em 0 0.2em 0;
+
+    font-weight: bold;
 }
 
 #calendar .date_section h1 span {
@@ -75,6 +77,7 @@ span.error {
 #calendar .event_row div.title,
 #calendar .event_row div.locations {
     flex: 1;
+    font-weight: bold;
 }
 
 #calendar .event_row div.locations span.location {
