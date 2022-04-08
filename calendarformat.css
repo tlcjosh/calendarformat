@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: "Sen", sans;
+    font-family: "Spectral", serif;
     font-size: 12pt;
 
 }
@@ -47,7 +47,7 @@ span.error {
     position: relative;
     margin: 1em 0 0.2em 0;
 
-    font-weight: bold;
+    font-weight: 800;
 }
 
 #calendar .date_section h1 span {
@@ -55,6 +55,7 @@ span.error {
     font-size: 50%;
     right: 0;
     bottom: 5px;
+    font-weight: bold;
 }
 
 #calendar .event_row:nth-child(even) {
