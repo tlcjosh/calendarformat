@@ -148,7 +148,7 @@
                                     offsite = true;
                                     //return false; // exit location loop, don't care anymore
                                 }
-                                if (name == 'Trinity Lutheran Church'){
+                                if (name === 'Trinity Lutheran Church'){
                                     loc = name;
                                 } else (!offsite) {
                                     loc += '<span class="location">' + name.split('</span>')[1] + '</span>'
