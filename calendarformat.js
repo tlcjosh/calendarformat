@@ -137,7 +137,8 @@
                             //get locations
                             $.each(event.locations, function(i, l){
                                 var name = l.facility_id.name;
-                                //DEBUG
+                                //DEBUG\
+                                console.log(name);
                                 //console.log(name.split('</span>')[1]);
                                 //console.log(!name.includes('Trinity Lutheran Church'));
 
