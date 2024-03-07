@@ -64,15 +64,15 @@ span.error {
 }
 
 #calendar .event_row:first-of-type {
-    border-top: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;*/
 }
 
 #calendar .event_row {
     display: flex;
     padding: 15px 0px;
-    border-bottom: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
+    border-radius: 10px;
 }
-
 
 #calendar .event_row div.time,
 #calendar .event_row div.title,
@@ -81,10 +81,15 @@ span.error {
     font-weight: bold;
 }
 
+#calendar .event_row div.time {
+    padding-left:15px;
+}
+
 #calendar .event_row div.locations span.location {
     display: block;
     font-weight: lighter;
 }
+
 
 #calendar .event_row div.time .access_time {
     font-weight: lighter;
