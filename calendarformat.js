@@ -150,7 +150,7 @@
                                 }
                                 if (name === 'Trinity Lutheran Church'){
                                     loc = name;
-                                } else (!offsite) {
+                                } else if (!offsite) {
                                     loc += '<span class="location">' + name.split('</span>')[1] + '</span>'
                                 }
 
