@@ -3,7 +3,7 @@
 body {
     font-family: "Jost", "Sen", sans-serif;
     font-size: 12pt;
-
+    color: #353535;
 }
 
 .content_wrap {
@@ -46,7 +46,7 @@ span.error {
 #calendar .date_section h1 {
     position: relative;
     margin: 1em 0 0.2em 0;
-
+    color: #AB5428;
     font-weight: 800;
 }
 
@@ -55,11 +55,12 @@ span.error {
     font-size: 50%;
     right: 0;
     bottom: 5px;
-    font-weight: bold;
+    font-weight: 300;
+    color: #3b7c87;
 }
 
 #calendar .event_row:nth-child(even) {
-    background: #eee;
+    background: #863b9b11;
     -webkit-print-color-adjust: exact;
 }
 
